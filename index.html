@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tonmoy Talukder</title>
+
+    <!-- Tailwind CSS Link -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Custom CSS Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navigation -->
+        <nav class="bg-gray-700 shadow-lg">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex justify-between">
+                    <div class="flex space-x-7">
+                        <div>
+                            <!-- Website Logo -->
+                            <a href="#" class="flex items-center py-4 px-2">
+                                <img src="images/tonmoy-bg.png" alt="Logo" class="h-8 w-8 mr-2">
+                                <span class="font-semibold text-gray-500 text-lg">Tonmoy Talukder</span>
+                            </a>
+                        </div>
+                        <!-- Primary Navbar items -->
+                        <!-- <div class="hidden md:flex items-center space-x-1">
+                            <a href=""
+                                class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300"><img
+                                    src="images/social/LinkedIn.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                            <a href=""
+                                class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300"><img
+                                    src="images/social/GitHub.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                            <a href=""
+                                class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300"><img
+                                    src="images/social/Facebook.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                            <a href=""
+                                class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300"><img
+                                    src="images/social/Twitter.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                        </div> -->
+                    </div>
+                    <!-- Secondary Navbar items -->
+                    <div class="hidden md:flex items-center space-x-3 ">
+                        <a href="" class="py-4 px-2 text-green-200 border-b-4 border-green-200 font-semibold ">Home</a>
+                        <a href=""
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-200 transition duration-300">Research
+                            &
+                            Publications</a>
+                        <a href=""
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-200 transition duration-300">Projects</a>
+                        <a href=""
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-200 transition duration-300">Resume</a>
+                        <a href=""
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-200 transition duration-300">Blog</a>
+                        <a href=""
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-200 transition duration-300">Contact</a>
+                    </div>
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden flex items-center">
+                        <button class="outline-none mobile-menu-button">
+                            <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile menu -->
+            <div class="hidden mobile-menu">
+                <ul class="">
+                    <li class="active"><a href="index.html"
+                            class="block text-sm px-2 py-4 text-current bg-green-100 font-semibold">Home</a></li>
+                    <li><a href="#services"
+                            class="block text-sm px-2 py-4 hover:bg-green-100 transition duration-300">Research &
+                            Publications</a></li>
+                    <li><a href="#services"
+                            class="block text-sm px-2 py-4 hover:bg-green-100 transition duration-300">Projects</a></li>
+                    <li><a href="#about"
+                            class="block text-sm px-2 py-4 hover:bg-green-100 transition duration-300">Resume</a></li>
+                    <li><a href="#about"
+                            class="block text-sm px-2 py-4 hover:bg-green-100 transition duration-300">Blog</a></li>
+                    <li><a href="#contact"
+                            class="block text-sm px-2 py-4 hover:bg-green-100 transition duration-300">Contact</a>
+                    </li>
+                    <!-- <li class="">
+                        <a href=""
+                            class="inline-block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"><img
+                                src="images/social/LinkedIn.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                        <a href=""
+                            class="inline-block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"><img
+                                src="images/social/GitHub.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                        <a href=""
+                            class="inline-block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"><img
+                                src="images/social/Facebook.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                        <a href=""
+                            class="inline-block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"><img
+                                src="images/social/Twitter.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section class="container mx-auto mt-12">
+            <div
+                class="grid sm:grid-cols-1 sm:grid-rows-2 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-4 flex justify-center">
+                <div class="mx-10">
+                    <h1 class=""> <i class="font-normal text-2xl">Hi! I am...</i> <br> <i
+                            class="text-5xl font-semibold">TONMOY TALUKDER</i> <br>
+                        <span class="text-xs font-medium">CS Undergrad @ AUST | Apprentice
+                            in Data Science & Machine Learning | Web Development</span>
+                    </h1>
+                    <p class="mt-12">
+                        Hi there! My name is Tonmoy and I am a CS undergrad at AUST. My favorite CS fields are Data
+                        Science, Machine Learning, Deep Learning & Artificial Intelligence. Although web development is
+                        always attractive to me as well. I also have interest on Python Development, Android & iOS
+                        application development.<br> <br>
+
+                        Besides among them, I love to study literature, history and Tech blogs.
+                    </p>
+                </div>
+                <div class="flex justify-center mx-10">
+                    <img src="images/Tonmoy-Talukder.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto mt-12">
+            <div
+                class="grid sm:grid-cols-1 sm:grid-rows-2 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-4 mx-10">
+                <div class="grid grid-flow-col grid-cols-1 grid-rows-2 gap-4 flex items-center">
+                    <div>
+                        <h1 class=""> <i class="font-normal text-3xl">My Skills</i>
+                        </h1>
+                        <p class="mt-4">
+                            <li>Data Structures & Algorithms</li>
+                            <li>Object Oriented Programming</li>
+                            <li>API Using Experience</li>
+                            <li>Competitive Problem Solving Experience & Clean Coding</li>
+                        </p>
+                        <p class="mt-4">
+                            <li>Bootstrap, Tailwind</li>
+                            <li>Python, Javascript, Typescript, React, React Native, Node.js</li>
+                            <li>C, C++, Java, msSQL, MongoDB, PostgreSQL</li>
+                            <li>HTML5, CSS3</li>
+                        </p>
+                        <p class="mt-4">
+                            <li>Android Studio, JavaFX</li>
+                        </p>
+                    </div>
+                    <div class="">
+                        <h1 class=""> <i class="font-normal text-3xl">Coding Sites</i>
+                        </h1>
+                        <p class="mt-4">
+                        <ol>
+                            <li class="mb-2"> <a href href="https://www.kaggle.com/tonmoytalukder">
+                                    <div class="grid grid-flow-col grid-cols-12 grid-rows-1 gap-0 flex items-center">
+                                        <div><img src="images/sites/kaggle.png" alt="Logo" class="h-8 w-10 mr-2">
+                                        </div>
+                                        <div>Kaggle</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-2"> <a href="https://codeforces.com/profile/Zishnav">
+                                    <div class="grid grid-flow-col grid-cols-12 grid-rows-1 gap-0 flex items-center">
+                                        <div><img src="images/sites/codeforces.png" alt="Logo" class="h-8 w-10 mr-2">
+                                        </div>
+                                        <div>Codeforces</div>
+                                    </div>
+                                </a> </li>
+                            <li class="mb-2"> <a href="https://leetcode.com/zishnav/">
+                                    <div class="grid grid-flow-col grid-cols-12 grid-rows-1 gap-0 flex items-center">
+                                        <div><img src="images/sites/leetcode.png" alt="Logo" class="h-8 w-10 mr-2">
+                                        </div>
+                                        <div>LeetCode</div>
+                                    </div>
+                                </a> </li>
+                            <li class="mb-2"> <a href="https://www.hackerrank.com/Zishnav?hr_r=1">
+                                    <div class="grid grid-flow-col grid-cols-12 grid-rows-1 gap-0 flex items-center">
+                                        <div><img src="images/sites/hackerrank.png" alt="Logo" class="h-8 w-10 mr-2">
+                                        </div>
+                                        <div>HackerRank</div>
+                                    </div>
+                                </a> </li>
+                            <li class="mb-2"> <a href="https://www.stopstalk.com/user/profile/zishnav">
+                                    <div class="grid grid-flow-col grid-cols-12 grid-rows-1 gap-0 flex items-center">
+                                        <div><img src="images/sites/stopstalk.png" alt="Logo" class="h-8 w-10 mr-2">
+                                        </div>
+                                        <div>Stopstalk</div>
+                                    </div>
+                                </a> </li>
+                        </ol>
+                        </p>
+                    </div>
+                </div>
+                <div class="">
+                    <h1 class=""> <i class="font-normal text-3xl">Education Background</i>
+                    </h1>
+                    <div>
+                        <p class="mt-4">
+                        <h1 class="font-semibold text-xl">Under Graduation</h1> <br>
+                        <p><span class="font-normal text-sm italic">Bachelor of Science in Computer Science &
+                                Engineering (2018-Present)</span>
+                            <br> <span class="font-normal text-base">Ahsanullah
+                                University of Science
+                                & Technology, Dhaka-1208</span>
+                        </p>
+                        </p>
+                    </div> <br>
+                    <div>
+                        <p class="mt-4">
+                        <h1 class="font-semibold text-xl">High School</h1> <br>
+                        <p><span class="font-normal text-sm italic">Higher Secondary (2015-2017)</span>
+                            <br> <span class="font-normal text-base">Agriculture University College, Mymensingh</span>
+                        </p> <br>
+                        <p><span class="font-normal text-sm italic">Higher Secondary (2015)</span>
+                            <br> <span class="font-normal text-base">St. Joseph Higher Secondary School, Dhaka
+                                1207</span>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="grid grid-flow-col grid-cols-1 grid-rows-2 gap-4 flex items-center">
+            <div class="flex justify-center mt-5">
+                <div class="flex justify-center">
+                    <a href="https://www.linkedin.com/in/TonmoyTalukder/" target="_blank"
+                        class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-200 hover:text-white transition duration-300"><img
+                            src="images/social/LinkedIn.png" alt="Logo" class="h-8 w-10 mr-2"></a>
+                    <a href="https://github.com/TonmoyTalukder" target="_blank"
+                        class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-200 hover:text-white transition duration-300"><img
+                            src="images/social/GitHub.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                    <a href="https://www.facebook.com/tonmoytalukder2000" target="_blank"
+                        class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-200 hover:text-white transition duration-300"><img
+                            src="images/social/Facebook.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                    <a href="https://twitter.com/TonmoyTweets" target="_blank"
+                        class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-200 hover:text-white transition duration-300"><img
+                            src="images/social/Twitter.png" alt="Logo" class="h-8 w-8 mr-2"></a>
+                </div>
+            </div>
+            <div class="flex justify-center mb-5">
+                <h1 class="text-green-100">&copy; 2021, Tonmoy Talukder, Bangladesh</h1>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- JS Link -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
