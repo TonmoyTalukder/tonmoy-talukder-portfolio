@@ -1,3 +1,7 @@
+.body-overflow {
+  overflow-x: hidden !important;
+}
+
 /* Contact Page Style */
 .carousel-open:checked + .carousel-item {
   position: static;
