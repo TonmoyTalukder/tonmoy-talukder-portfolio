@@ -40,3 +40,29 @@
   .carousel-bullet {
   color: #2b6cb0; /*Set to match the Tailwind colour you want the active one to be */
 }
+
+@media only screen and (max-width: 1024px) {
+  .hidden-display-one {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1448px) {
+  .special-view {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .item2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hidden-display-two {
+    display: none;
+  }
+}
