@@ -24,4 +24,3 @@ let blog = () => {
 let contact = () => {
 	location.replace("contact.html")
 }
-
