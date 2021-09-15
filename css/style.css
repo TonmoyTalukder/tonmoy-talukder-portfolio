@@ -65,7 +65,7 @@
     grid-column-end: 4;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
   .hidden-display-two {
     display: none;
   }
